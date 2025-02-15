@@ -15,8 +15,6 @@ class Dataset:
         self.data = self.data.drop(labels = dropList,axis=1)
         self.data = self.data.drop(labels=[label],axis=1)
         
-
-
         self.scalers  = {}
         self.encoders = {}
         self.label_encoder = LabelEncoder()
