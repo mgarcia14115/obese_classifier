@@ -1,7 +1,7 @@
-./data/*
-!./data/raw/deleteme.txt
-!./data/staging/deleteme.txt
-!./data/processed/deleteme.txt
+data/*
+!data/raw/deleteme.txt
+!data/staging/deleteme.txt
+!data/processed/deleteme.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
